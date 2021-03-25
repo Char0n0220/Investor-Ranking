@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  investor-ranking:
+    build: .
+    volumes:
+      - ".:/Investor-Ranking"
+    env_file: .env
